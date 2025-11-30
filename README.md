@@ -14,10 +14,12 @@ This is a minimal Next.js app to search Firebase Authentication users by email s
    - Option B: Set GOOGLE_APPLICATION_CREDENTIALS to an absolute path of your JSON
    - Option C: Set FIREBASE_SERVICE_ACCOUNT to either the JSON contents (stringified) or a path to the JSON file
 
-   The repo contains a placeholder at credentials/serviceAccountKey.json that you can replace.
+   The repo contains a placeholder at credentials/_serviceAccountKey.json that you can replace and rename.
 
 3. Run the app
+
    npm run dev
+
    Then open http://localhost:3000
 
 ## API

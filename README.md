@@ -9,8 +9,9 @@ This is a minimal Next.js app to search Firebase Authentication users by email s
 
 2. Provide Firebase Admin credentials (pick ONE of the following):
    - **Option A: Place your service account JSON at credentials/serviceAccountKey.json**
-   
-     Go to https://infisical.studypilot.com and search for "FIREBASE_SERVICE_ACCOUNT". Copy the development value into a file called credentials/serviceAccountKey.json.
+
+     Go to your Firebase Console > Project Settings > Service Accounts > Generate New Private Key. Download the JSON
+     file and save it as credentials/serviceAccountKey.json.
    - Option B: Set GOOGLE_APPLICATION_CREDENTIALS to an absolute path of your JSON
    - Option C: Set FIREBASE_SERVICE_ACCOUNT to either the JSON contents (stringified) or a path to the JSON file
 

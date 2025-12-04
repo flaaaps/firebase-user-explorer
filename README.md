@@ -12,10 +12,11 @@ This is a minimal Next.js app to search Firebase Authentication users by email s
 
      Go to your Firebase Console > Project Settings > Service Accounts > Generate New Private Key. Download the JSON
      file and save it as credentials/serviceAccountKey.json.
+
+     The repo contains a placeholder at credentials/_serviceAccountKey.json that you can replace and rename.
    - Option B: Set GOOGLE_APPLICATION_CREDENTIALS to an absolute path of your JSON
    - Option C: Set FIREBASE_SERVICE_ACCOUNT to either the JSON contents (stringified) or a path to the JSON file
 
-   The repo contains a placeholder at credentials/_serviceAccountKey.json that you can replace and rename.
 
 3. Run the app
 
